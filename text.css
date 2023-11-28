@@ -1,0 +1,253 @@
+*{
+		scroll-behavior: smooth;
+
+
+	}
+	a{
+		color: goldenrod;
+		margin-right: 50px;
+		margin-left: 50px;
+		text-align: right;
+		
+	}
+	a:hover{
+		color: ghostwhite;
+
+	}
+	article{
+		height: 25px;
+    	text-align: center;
+    	background-color: #000033;
+    	margin-top: -25px;
+    	border: 2px solid goldenrod;
+	}
+	p{
+		background-color:#F7DCE2;
+		padding: 2px;
+		margin-top: 2px;
+		text-align: center;
+
+	}
+
+	body{
+		background-color:ghostwhite;
+	}
+	div{
+		background-color: transparent;
+		overflow: hidden;
+		margin-left: px;
+		display: inline-block;
+
+
+	}
+	div:hover img{
+		background-color: goldenrod;
+		border: 1px solid maroon;
+		scale: 1.1;
+		border-radius: 20%;
+		margin-bottom: 10px;
+		margin-top: 30px;
+		margin-left: 10px;
+		
+		
+	}
+	.class:hover {
+		margin-bottom: 166px;
+		background-color:black;
+		color: goldenrod;
+		border-radius: 10px;
+		border: 5px solid goldenrod;
+
+	}
+	.class{
+		color: black;
+		margin-bottom: 95px;
+		margin-left: 20px;
+		display: inline-block;
+		transition: all ease 0.8s;
+		margin-left: 20px;
+		height: 250px;
+		width: 1050px;
+		border-radius: 30%;
+
+	}
+	img{
+		transition: all ease 0.5s;
+	}
+	
+	#about{	
+		color: goldenrod;
+		height: 80%;
+		width: 100%;
+		position: auto;
+		background-color:#000033 ;
+	}
+
+	h1{
+		background-color: ghostwhite;
+		color: maroon;
+	}
+	h2{
+		margin-bottom: 0px;
+		color:ghostwhite;
+		background-color: #145863;
+
+	}
+	.text,li{
+		background-color:#000033 ;
+		color: goldenrod;
+		padding: 20px;
+	}
+	#scroll{
+		background-color: goldenrod;
+		height: 20px;
+		width: 50px;
+		position: fixed;
+		bottom: 20px;
+		text-align: right;
+		right: 10px;
+ 		border-radius: 20%;
+ 		transition: background-color 0.8s;
+ 		border: 2px solid maroon;
+ 		color: maroon;
+ 	}
+	#scroll:hover{
+		text-align: center;
+		font-size: 15px;
+		color: maroon;
+		background:linear-gradient(teal,#000033) ;
+		border: 2px solid goldenrod;
+		border-radius: 10px;
+		height: 200px;
+		width: 70px;
+		transition: all ease 0.5s;
+	}
+	
+
+	}
+	#Projects{
+		width: 100%;
+		height: 110%;
+		color: maroon;
+		background-color: ;
+		font-size: 20px;
+		display: inline-block;
+		margin-bottom: 20px;	
+	}	
+	}
+	img:hover{
+			border: 6px inset goldenrod;
+			transition: all ease 0.2s;
+			scale: 1.1;
+			overflow: hidden;
+	}
+	
+	.A1,.A3{
+		text-align: right;
+		margin-right: 300px;
+		
+	}
+	.A2,.A4{
+		text-align: left;
+		margin-left: 300px;
+		
+	}
+	.A1:hover{
+  		background: linear-gradient(transparent,goldenrod);
+  		scale: 1.1;
+  		filter: contrast(150%);
+  		overflow: hidden;
+  		transition: all ease 1.5s;
+  		margin-left: 50%;
+  		background-color: teal;
+  		border-radius: 20px;
+  		border: 3px inset goldenrod;
+	}
+	.A2:hover{
+		background: linear-gradient(transparent,lightpink);
+  		scale: 1.1;
+  		filter: contrast(150%);
+  		overflow: hidden;
+  		transition: all ease 1.5s;
+  		margin-right: 50%;
+  		background-color: navy;
+  		border-radius: 20px;
+  		border: 3px inset goldenrod;
+	}
+	.A3:hover{
+  		background: linear-gradient(transparent,gray);
+  		scale: 1.1;
+  		filter: saturate(180%);
+  		overflow: hidden;
+  		transition: all ease 1.5s;
+  		margin-left: 50%;
+  		background-color: white;
+  		border-radius: 20px;
+  		border: 3px inset goldenrod;
+	}
+	.A4:hover{
+		background: linear-gradient(transparent,teal);
+		filter: contrast(150%);
+  		scale: 1.1;
+  		overflow: hidden;
+  		transition: all ease 1.5s;
+  		margin-right: 50%;
+  		background-color: navy;
+  		border-radius: 20px;
+  		border: 3px inset goldenrod;
+  	}
+  	
+  	.pro{
+  		margin-top: -20px;
+
+  		background-color:#F7DCE2;
+  		color:goldenrod;
+  	}
+  	.li{
+  		background:linear-gradient(#000033,maroon);
+  		border-radius: 10px;
+  		color: ghostwhite;
+  		font-weight: 20px;
+  		width: 20%;
+  	}
+  	#home{
+  		width: 100%;	
+  	}
+  	#Services{
+  		background-color: goldenrod;
+  		position: absolute;
+  		height: 500px;
+  		width: 40%;
+  		margin-top: 80px;
+		margin-left: 30%;
+  		border-radius: 40px;
+  		background-image: url(02.jpg);
+  		border: 6px double goldenrod;
+  		margin-bottom: 40px;
+
+  	}
+  	marquee{
+  		width: 100%;
+  		background-color: #000033;
+  		color: goldenrod;
+  		font-size: 30px;
+  		height: 40px;
+  		border-top-style: solid ;
+  		border-bottom-style: solid ;
+  	}
+  	#Contact{
+  		margin-top: 40%;
+  		width: 100%;
+  		position: absolute;
+  		background-color: teal;
+  		color: gold;
+  		font-size: 20px;
+  		border-top-style: solid ;
+  		border-bottom-style: solid ;
+
+  	}
+  	#Contact::first-line{
+  		background-color: maroon;
+  		font-size: 30px;
+
+  	}
